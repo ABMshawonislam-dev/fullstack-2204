@@ -1,8 +1,8 @@
 const express = require("express");
+const registrationController = require("../../controllers/registrationController");
+const secureApi = require("../../middleware/secureApi");
 const _ = express.Router();
 
-_.get("/registration",(req,res)=>{
-    res.send("Hello From Routes")
-});
+_.post("/registration", secureApi, registrationController);
 
 module.exports = _;
