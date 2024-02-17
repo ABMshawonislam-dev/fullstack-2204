@@ -8,6 +8,10 @@ export default {
     extend: {
       spacing: {
         'container': '1420px',
+      },
+      fontFamily: {
+        'roboto': ['Roboto'],
+        'pop': ['Poppins']
       }
     },
   },
