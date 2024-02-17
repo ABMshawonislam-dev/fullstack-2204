@@ -6,9 +6,6 @@ export default {
   ],
   theme: {
     extend: {
-      spacing: {
-        'container': '1370px',
-      },
       fontFamily: {
         'roboto': ['Roboto'],
         'pop': ['Poppins']
@@ -17,6 +14,9 @@ export default {
         'primary': '#081621',
         'orange': '#EF4A23',
       },
+      spacing: {
+        'container': '1400px',
+      }
     },
   },
   plugins: [],
