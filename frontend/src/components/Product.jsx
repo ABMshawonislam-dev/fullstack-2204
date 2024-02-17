@@ -8,7 +8,7 @@ function Product() {
         <div className='w-[320px] bg-white rounded-md shadow-xl'>
             <p className='bg-[#6E2594] w-36 rounded-r-full font-pop font-normal text-white text-xs px-2 py-0.5'>Save: 2,351৳</p>
             <Image src={Computer} className="w-full" />
-            <div className='px-2'>
+            <div className='p-4'>
                 <h1 className='font-roboto font-medium text-lg text-primary'>Lenovo Legion S7 16ARHA7 Ryzen 7 6800H RX 6800S 8GB Graphics 16" Gaming Laptop</h1>
                 <Flex className="justify-between items-center">
                     <p className='font-roboto font-medium text-base text-orange mt-4 flex items-center gap-x-4 '>23,999৳ <span className='text-sm text-black line-through'>26,350৳</span></p>
