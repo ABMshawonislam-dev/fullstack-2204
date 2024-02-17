@@ -7,12 +7,15 @@ export default {
   theme: {
     extend: {
       spacing: {
-        'container': '1420px',
+        'container': '1370px',
       },
       fontFamily: {
         'roboto': ['Roboto'],
         'pop': ['Poppins']
-      }
+      },
+      colors: {
+        'primary': '#081621',
+      },
     },
   },
   plugins: [],
