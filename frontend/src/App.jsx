@@ -1,14 +1,10 @@
 import React from 'react'
-import Container from './components/Container'
-import Image from './components/Image'
-
+import { RouterProvider } from "react-router-dom";
+import Routes from '../routes/Routes';
 function App() {
+
   return (
-    <div>
-      <Container>
-       {/* <Image src={Test} /> */}
-      </Container>
-    </div>
+    <RouterProvider router={Routes} />
   )
 }
 
