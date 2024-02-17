@@ -15,8 +15,9 @@ export default {
         'orange': '#EF4A23',
       },
       spacing: {
-        'container': '1400px',
+        'container': '1400px'
       }
+      
     },
   },
   plugins: [],
