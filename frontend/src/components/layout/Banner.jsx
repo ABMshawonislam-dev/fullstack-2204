@@ -14,7 +14,7 @@ import { IoSearchSharp } from "react-icons/io5";
 
 function Banner() {
     const settings = {
-        dots: false,
+        dots: true,
         infinite: true,
         speed: 500,
         slidesToShow: 1,
@@ -23,6 +23,17 @@ function Banner() {
         autoplay: true,
         speed: 3000,
         autoplaySpeed: 2000,
+
+        appendDots: dots => (
+            <div>
+              <ul className='flex gap-x-5 absolute bottom-0 left-1/2 -translate-x-1/2 z-44'> {dots} </ul>
+            </div>
+          ),
+          customPaging: i => (
+            <div className='btn p-2'>
+              .
+            </div>
+          )
 
     };
     return (
