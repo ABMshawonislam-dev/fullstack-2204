@@ -9,7 +9,7 @@ import { HiMiniUser } from "react-icons/hi2";
 import { IoSearchSharp } from "react-icons/io5";
 function Navbar() {
   return (
-    <section>
+    <section className='fixed z-10 w-full top-0'>
       <div className='bg-primary py-3'>
         <Container>
           <Flex className="items-center justify-between">

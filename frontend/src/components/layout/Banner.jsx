@@ -26,7 +26,7 @@ function Banner() {
 
     };
     return (
-        <section className='my-4'>
+        <section className='mb-4 mt-36'>
             <Contianer>
                 <Flex className="justify-between">
                     <div className='w-[75%] '>
