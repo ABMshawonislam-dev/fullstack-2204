@@ -10,8 +10,9 @@ function Footer() {
       <Container>
         <Flex className="justify-between">
           <div className='w-32'>
-            <Image src={Logo} className="w-full mt-16"/>
+            <Image src={Logo} className="w-full mt-16" />
           </div>
+
           <Flex className="gap-x-8">
             <div>
               <h1 className='font-roboto font-semibold text-lg text-white mb-4'>Menu</h1>
@@ -42,7 +43,7 @@ function Footer() {
                 <li className='font-roboto font-normal text-sm mb-2 text-white hover:text-orange duration-200'>Shop 3</li>
                 <li className='font-roboto font-normal text-sm mb-2 text-white hover:text-orange duration-200'>Shop 4</li>
                 <li className='font-roboto font-normal text-sm mb-2 text-white hover:text-orange duration-200'>Shop 5</li>
-                
+
               </ul>
             </div>
             <div>
@@ -58,8 +59,30 @@ function Footer() {
             </div>
 
           </Flex>
+
+          <div>
+            <h1 className='font-roboto font-semibold text-lg uppercase text-white mb-4'>Brand</h1>
+            <Flex className="flex-wrap w-44 gap-5">
+              <div className='w-16'>
+                <Image src={Logo} className="w-full" />
+              </div>
+
+              <div className='w-16'>
+                <Image src={Logo} className="w-full" />
+              </div>
+
+              <div className='w-16'>
+                <Image src={Logo} className="w-full" />
+              </div>
+
+              <div className='w-16'>
+                <Image src={Logo} className="w-full" />
+              </div>
+            </Flex>
+            <p className='font-pop font-normal text-xs text-center text-white mt-8'>2020 Orebi Minimal eCommerce Figma Template by Adveits</p>
+          </div>
         </Flex>
-        <p className='font-pop font-normal text-xs text-center text-white mt-2'>2020 Orebi Minimal eCommerce Figma Template by Adveits</p>
+       
       </Container>
     </footer>
   )
