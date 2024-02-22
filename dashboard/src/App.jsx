@@ -9,7 +9,7 @@ function App() {
       {
         username: values.username,
         email: values.email,
-        Password: values.password,
+        password: values.password,
       },
       {
         headers: {

@@ -8,4 +8,6 @@ let mongoConfig = () => {
     .then(() => console.log("Connected!"));
 };
 
+// mongodb+srv://real:idVjIvjmAtvPxchJ@cluster0.ctphhq0.mongodb.net/ecom?retryWrites=true&w=majority
+
 module.exports = mongoConfig;
