@@ -8,6 +8,7 @@ import Bannerfooter from '../components/layout/Bannerfooter.jsx'
 import NewsFeed from '../components/layout/NewsFeed.jsx'
 import Cetagory from '../components/layout/Cetagory.jsx'
 import Product from '../components/layout/Product.jsx'
+import Footer from '../components/layout/Footer.jsx'
 
 const Home = () => {
   return (
@@ -19,6 +20,7 @@ const Home = () => {
     <NewsFeed/>
     <Cetagory/>
     <Product/>
+    <Footer/>
     </>
   )
 }
