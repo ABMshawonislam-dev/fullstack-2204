@@ -18,6 +18,10 @@ import { IoMdFlash } from "react-icons/io";
 import { IoMdPerson } from "react-icons/io";
 
 
+// react router dom
+import { Link } from 'react-router-dom'
+
+
 
 const Topnav = () => {
   return (
@@ -58,7 +62,11 @@ const Topnav = () => {
            </div>
           </div>
           <div className='w-[10%]'>
-            <button className='ml-[21px] py-[10px] px-[20px] bg-[#23539F] rounded-[5px] text-white font-bold text-sm border border-solid border-black hover:bg-[#23539F] hover:text-white duration-500'>PC Builder</button>
+
+          <Link to="/Pc Builder">
+              <button className='ml-[21px] py-[10px] px-[20px] bg-[#23539F] rounded-[5px] text-white font-bold text-sm border border-solid border-black hover:bg-[#23539F] hover:text-white duration-500'>PC Builder</button>      
+           </Link>
+            
           </div>
         </Flex>
       </Container>

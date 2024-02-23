@@ -13,14 +13,13 @@ import Footer from '../components/layout/Footer.jsx'
 const Home = () => {
   return (
     <>
-    <Topnav/>
-    <Catagorynav />
+   
     <Banner/>
     <Bannerfooter/>
     <NewsFeed/>
     <Cetagory/>
     <Product/>
-    <Footer/>
+   
     </>
   )
 }
